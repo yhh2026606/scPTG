@@ -1,0 +1,44 @@
+2026-08-27 09:11:47 | INFO | scPTG started | data=data\Zeisel.h5ad | seed=0 | device=cuda
+2026-08-27 09:11:49 | INFO | Data: {'dataset': 'Zeisel', 'path': 'D:\\06python_codes\\xlw\\scPTG\\data\\Zeisel.h5ad', 'n_cells': 3005, 'n_genes_original': 19972, 'n_genes_selected': 2000, 'n_clusters': 7, 'matrix_source': 'layers/counts'}
+2026-08-27 09:11:50 | INFO | AE epoch 1/200 | loss 0.417087
+2026-08-27 09:11:50 | INFO | AE epoch 10/200 | loss 0.281367
+2026-08-27 09:11:51 | INFO | AE epoch 20/200 | loss 0.264663
+2026-08-27 09:11:51 | INFO | AE epoch 30/200 | loss 0.257712
+2026-08-27 09:11:51 | INFO | AE epoch 40/200 | loss 0.251581
+2026-08-27 09:11:52 | INFO | AE epoch 50/200 | loss 0.247504
+2026-08-27 09:11:52 | INFO | AE epoch 60/200 | loss 0.244208
+2026-08-27 09:11:52 | INFO | AE epoch 70/200 | loss 0.241433
+2026-08-27 09:11:53 | INFO | AE epoch 80/200 | loss 0.237987
+2026-08-27 09:11:53 | INFO | AE epoch 90/200 | loss 0.234825
+2026-08-27 09:11:53 | INFO | AE epoch 100/200 | loss 0.232559
+2026-08-27 09:11:54 | INFO | AE epoch 110/200 | loss 0.229616
+2026-08-27 09:11:54 | INFO | AE epoch 120/200 | loss 0.227208
+2026-08-27 09:11:54 | INFO | AE epoch 130/200 | loss 0.224990
+2026-08-27 09:11:55 | INFO | AE epoch 140/200 | loss 0.222773
+2026-08-27 09:11:55 | INFO | AE epoch 150/200 | loss 0.220445
+2026-08-27 09:11:55 | INFO | AE epoch 160/200 | loss 0.218303
+2026-08-27 09:11:56 | INFO | AE epoch 170/200 | loss 0.215900
+2026-08-27 09:11:56 | INFO | AE epoch 180/200 | loss 0.213932
+2026-08-27 09:11:56 | INFO | AE epoch 190/200 | loss 0.211802
+2026-08-27 09:11:57 | INFO | AE epoch 200/200 | loss 0.210302
+2026-08-27 09:11:58 | INFO | Graph: {'k': 15, 'n_edges': 32940, 'n_components': 1, 'mean_degree': 21.923460898502494}
+2026-08-27 09:11:58 | INFO | Community initialization: 7 clusters
+2026-08-27 09:11:59 | INFO | Joint epoch 1/150 | loss 0.023312 | KL 0.464093
+2026-08-27 09:11:59 | INFO | Joint epoch 10/150 | loss 0.230085 | KL 0.458023
+2026-08-27 09:11:59 | INFO | Joint epoch 20/150 | loss 0.445429 | KL 0.443291
+2026-08-27 09:11:59 | INFO | Joint epoch 30/150 | loss 0.433127 | KL 0.430999
+2026-08-27 09:11:59 | INFO | Joint epoch 40/150 | loss 0.421644 | KL 0.419527
+2026-08-27 09:11:59 | INFO | Joint epoch 50/150 | loss 0.410924 | KL 0.408818
+2026-08-27 09:11:59 | INFO | Joint epoch 60/150 | loss 0.400876 | KL 0.398782
+2026-08-27 09:12:00 | INFO | Joint epoch 70/150 | loss 0.391304 | KL 0.389221
+2026-08-27 09:12:00 | INFO | Joint epoch 80/150 | loss 0.381982 | KL 0.379911
+2026-08-27 09:12:00 | INFO | Joint epoch 90/150 | loss 0.372806 | KL 0.370747
+2026-08-27 09:12:00 | INFO | Joint epoch 100/150 | loss 0.363739 | KL 0.361693
+2026-08-27 09:12:00 | INFO | Joint epoch 110/150 | loss 0.354758 | KL 0.352724
+2026-08-27 09:12:00 | INFO | Joint epoch 120/150 | loss 0.345861 | KL 0.343839
+2026-08-27 09:12:00 | INFO | Joint epoch 130/150 | loss 0.337054 | KL 0.335044
+2026-08-27 09:12:01 | INFO | Joint epoch 140/150 | loss 0.328358 | KL 0.326360
+2026-08-27 09:12:01 | INFO | Joint epoch 150/150 | loss 0.319800 | KL 0.317814
+2026-08-27 09:12:01 | INFO | Result | ARI 0.8486 | NMI 0.8065 | ACC 0.8539
+2026-08-27 09:12:01 | INFO | Trajectory | trust 0.9886 | agreement 0.9693
+2026-08-27 09:12:01 | INFO | Finished in 15.21 s | outputs=D:\06python_codes\xlw\scPTG\outputs\Zeisel\seed_0

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "n_hvg": 2000,
+    "target_sum": 10000.0,
+    "clip": 10.0,
+    "pca_dim": 50,
+    "prefer_counts": true
+  },
+  "model": {
+    "hidden_dims": [
+      512,
+      128
+    ],
+    "latent_dim": 32,
+    "pca_residual_dim": 50,
+    "pca_residual_weight": 1.0,
+    "dropout": 0.0,
+    "temperature": 0.2,
+    "mask_rate": 0.15,
+    "masked_loss_fraction": 0.9,
+    "huber_delta": 1.0,
+    "gnn_num_layers": 3,
+    "gnn_init_alpha": 0.1,
+    "gnn_init_beta": 0.25,
+    "community_resolutions": [
+      0.2,
+      0.4,
+      0.8,
+      1.2
+    ]
+  },
+  "graph": {
+    "k": 15,
+    "rank_sigma": 10.0,
+    "self_loop": 1.0
+  },
+  "train": {
+    "pretrain_epochs": 200,
+    "joint_epochs": 150,
+    "batch_size": 512,
+    "encode_batch_size": 2048,
+    "pretrain_lr": 0.001,
+    "joint_lr": 0.0005,
+    "encoder_lr_scale": 0.25,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 25,
+    "freeze_encoder_epochs": 10,
+    "cluster_warmup_epochs": 20,
+    "graph_warmup_epochs": 20,
+    "lambda_final": 1.0,
+    "lambda_sep": 0.05,
+    "sep_margin": 0.2,
+    "grad_clip": 5.0,
+    "trajectory_trust_center": 0.88,
+    "trajectory_trust_temperature": 0.02
+  },
+  "runtime": {
+    "device": "auto",
+    "num_workers": 0,
+    "deterministic": true
+  }
+}

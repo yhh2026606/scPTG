@@ -1,0 +1,25 @@
+{
+  "ari": 0.8485930105122407,
+  "nmi": 0.8065006303202753,
+  "acc": 0.853910149750416,
+  "runtime_seconds": 15.205037399999128,
+  "seed": 0,
+  "device": "cuda",
+  "trajectory_trust": 0.9886267781257629,
+  "trajectory_agreement": 0.969301164150238,
+  "data": {
+    "dataset": "Zeisel",
+    "path": "D:\\06python_codes\\xlw\\scPTG\\data\\Zeisel.h5ad",
+    "n_cells": 3005,
+    "n_genes_original": 19972,
+    "n_genes_selected": 2000,
+    "n_clusters": 7,
+    "matrix_source": "layers/counts"
+  },
+  "graph": {
+    "k": 15,
+    "n_edges": 32940,
+    "n_components": 1,
+    "mean_degree": 21.923460898502494
+  }
+}
