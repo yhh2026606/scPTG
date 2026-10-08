@@ -1,9 +1,5 @@
 # scPTG
 
-Minimal, reproducible implementation of **scPTG** for single-cell clustering. This release contains only the formal method and the code required to train it and report ARI, NMI and ACC. Plotting, ablation variants and batch experiment scripts are intentionally excluded.
-
-## Method
-
 scPTG combines a masked denoising autoencoder, a rank-weighted PCA KNN graph, multiscale Louvain initialization, an anchored graph neural network, a shared cosine-prototype head and guarded trajectory readout.
 
 ## Repository layout
